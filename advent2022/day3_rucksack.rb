@@ -27,4 +27,4 @@ f.each_line do |line|
 end
 f.close
 
-puts priority_total
+puts "What is the sum of the priorities of those item types? -> #{priority_total}"
