@@ -22,8 +22,9 @@ f.each_line do |line|
   priority_total += calculate_priority(
     find_item_type_both_compartiments(
       first.chars.to_set, 
-      second.chars.to_set)
+      second.chars.to_set
     )
+  )
 end
 f.close
 
