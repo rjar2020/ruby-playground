@@ -29,9 +29,9 @@ win = 6
 draw = win / 2
 for i in 0..2 do
   print "Your opponets move: "
-  move_foe = gets.chomp
+  move_foe = gets.chomp.upcase
   print "Your move: "
-  move_you = gets.chomp
+  move_you = gets.chomp.upcase
   
   if move_rules_you[move_you] == move_foe
     puts "You won!"
